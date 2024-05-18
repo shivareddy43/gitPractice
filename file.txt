@@ -26,5 +26,6 @@ git stash pop (or) git stash pop <stash ref> -> This command applies the changes
 
 git merge <branch name> merges given branch to existing branch.
 
+-> When both branches work on same files or same lines conflict may occur and it must be resolved manually. Git does not handle automatically. 
 
 
