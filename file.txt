@@ -1,31 +1,34 @@
-"git init" -> one time per project
+1) "git init" -> one time per project
 
-when "git init" is executes ".git" is created
+2) when "git init" is executes ".git" is created
 
-".git" -> a hidden folder to keep history of all files and sub-folders.
+3) ".git" -> a hidden folder to keep history of all files and sub-folders.
 
-working_dir -> "git add ." -> staging area -> "git commit" -> Repo -> "git push" -> Github
+4) working_dir -> "git add ." -> staging area -> "git commit" -> Repo -> "git push" -> Github
 
-To know what files to keep in .gitignore go to .gitignore generator and search topic your working on like node. 
+5) To know what files to keep in .gitignore go to .gitignore generator and search topic your working on like node. 
 You get all the files added to .gitignore in general.
 
-git branch -> gives current branch to which head is pointing to. 
-git checkout/switch <branch name> -> it will point to given branch.
-git log --oneline ->  gives shortened description about logs
+6) git branch -> gives current branch to which head is pointing to. 
+7) git checkout/switch <branch name> -> it will point to given branch.
+8) git log --oneline ->  gives shortened description about logs
 
--> commit before switching to another branch
--> go to .git folder and checkout HEAD file it points to current branch.
+9) -> commit before switching to another branch
+10) -> go to .git folder and checkout HEAD file it points to current branch.
 
-git checkout -m <branch_name> -> If you want to preserve your changes and carry to new branch. -m refers to merging
+11) git checkout -m <branch_name> -> If you want to preserve your changes and carry to new branch. -m refers to merging
 
--> If you dont want to carry changes to new brach and dont want to commit chnages in previous branch then add them to stash area by giving "git stash <file/folder name>
+12) -> If you dont want to carry changes to new brach and dont want to commit chnages in previous branch then add them to stash area by giving "git stash <file/folder name>
 
--> It temporarily stores changes
+13) -> It temporarily stores changes
 
-git stash pop (or) git stash pop <stash ref> -> This command applies the changes from the top stash and removes it from the stash stack.
+14) git stash pop (or) git stash pop <stash ref> -> This command applies the changes from the top stash and removes it from the stash stack.
 
-git merge <branch name> merges given branch to existing branch.
+15) git merge <branch name> merges given branch to existing branch.
 
--> When both branches work on same files or same lines conflict may occur and it must be resolved manually. Git does not handle automatically. 
+16) -> When both branches work on same files or same lines conflict may occur and it must be resolved manually. Git does not handle automatically. 
 
+17) git rebase should not be executed on main/master branch
+
+18) git rebase master -> should be executed from some other(new_branch) branch so that  new_branch now becomes the main/master for working.
 
