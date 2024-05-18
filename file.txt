@@ -24,7 +24,7 @@ git checkout -m <branch_name> -> If you want to preserve your changes and carry 
 
 git stash pop (or) git stash pop <stash ref> -> This command applies the changes from the top stash and removes it from the stash stack.
 
-
+git merge <branch name> merges given branch to existing branch.
 
 
 
