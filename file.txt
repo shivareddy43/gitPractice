@@ -5,3 +5,6 @@ when "git init" is executes ".git" is created
 ".git" -> a hidden folder to keep history of all files and sub-folders.
 
 working_dir -> "git add ." -> staging area -> "git commit" -> Repo -> "git push" -> Github
+
+To know what files to keep in .gitignore go to .gitignore generator and search topic your working on like node. 
+You get all the files added to .gitignore in general.
