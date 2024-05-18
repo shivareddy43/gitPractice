@@ -1,0 +1,7 @@
+"git init" -> one time per project
+
+when "git init" is executes ".git" is created
+
+".git" -> a hidden folder to keep history of all files and sub-folders.
+
+working_dir -> "git add ." -> staging area -> "git commit" -> Repo -> "git push" -> Github
