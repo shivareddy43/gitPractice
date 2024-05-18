@@ -8,3 +8,23 @@ working_dir -> "git add ." -> staging area -> "git commit" -> Repo -> "git push"
 
 To know what files to keep in .gitignore go to .gitignore generator and search topic your working on like node. 
 You get all the files added to .gitignore in general.
+
+git branch -> gives current branch to which head is pointing to. 
+git checkout/switch <branch name> -> it will point to given branch.
+git log --oneline ->  gives shortened description about logs
+
+-> commit before switching to another branch
+-> go to .git folder and checkout HEAD file it points to current branch.
+
+git checkout -m <branch_name> -> If you want to preserve your changes and carry to new branch. -m refers to merging
+
+-> If you dont want to carry changes to new brach and dont want to commit chnages in previous branch then add them to stash area by giving "git stash <file/folder name>
+
+-> It temporarily stores changes
+
+git stash pop (or) git stash pop <stash ref> -> This command applies the changes from the top stash and removes it from the stash stack.
+
+
+
+
+
